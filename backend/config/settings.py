@@ -99,3 +99,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = [
+    "https://sme-business-management-system.onrender.com",
+    "https://sme-business-management-system.vercel.app",
+]
